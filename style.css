@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-display: "";
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.container {
+    background: url("./images/sky-49520_1280.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 80vw;
+    color: #fff;
+    height: 80vh;
+    margin: 4% auto;
+    
+}
+
+.head {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+    border-bottom: 1px solid #fff;
+    padding: 2%;
+}
+
+.btnF {
+    border: none;
+    padding: 5px 8px; 
+    background: #fff;
+    color: #0000FF;   
+}
+
+i {
+    padding: 5px;
+    font-size: 25px;
+}
+
+.btnC {
+    border: 1px solid #fff;
+    padding: 5px 8px;
+    background: transparent;
+    color: #fff;
+}
+
+.content {
+    padding-top: 2%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.weather {
+    display: flex;
+    flex: 0 1 13%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #A4C2DC;
+    margin: 0 2%;
+    padding: 1%;
+}
+
+.high {
+    background: #fff;
+    text-align: center;
+    width: 100%;
+}
+
+.high h3 {
+    color: orange;
+    font-weight: 300;
+ 
+}
+
+.high p {
+    color: #0000FF;
+    
+}
